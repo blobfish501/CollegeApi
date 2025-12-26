@@ -1,0 +1,119 @@
+INSERT INTO Roles (RoleName) VALUES
+('Admin'),
+('Student'),
+('Teacher'),
+('Methodist'),
+('Dean'),
+('Curator'),
+('Accountant'),
+('HR'),
+('Guest'),
+('Moderator');
+
+INSERT INTO Users (Login, PasswordHash, RoleId) VALUES
+('admin1', 'hash1', 1),
+('stud1', 'hash2', 2),
+('stud2', 'hash3', 2),
+('stud3', 'hash4', 2),
+('stud4', 'hash5', 2),
+('teach1', 'hash6', 3),
+('teach2', 'hash7', 3),
+('teach3', 'hash8', 3),
+('method1', 'hash9', 4),
+('dean1', 'hash10', 5);
+
+INSERT INTO Departments (DepartmentName) VALUES
+('Information Technology'),
+('Economics'),
+('Law'),
+('Design'),
+('Engineering'),
+('Pedagogy'),
+('Medicine'),
+('Logistics'),
+('Management'),
+('Tourism');
+
+INSERT INTO Groups (GroupName, DepartmentId) VALUES
+('IT-21', 1),
+('IT-22', 1),
+('EC-21', 2),
+('LAW-21', 3),
+('DS-21', 4),
+('ENG-21', 5),
+('PED-21', 6),
+('MED-21', 7),
+('LOG-21', 8),
+('MNG-21', 9);
+
+INSERT INTO Students (UserId, FirstName, LastName, BirthDate, GroupId) VALUES
+(2, 'Ivan', 'Petrov', '2005-03-12', 1),
+(3, 'Anna', 'Smirnova', '2004-07-25', 1),
+(4, 'Dmitry', 'Ivanov', '2005-01-18', 2),
+(5, 'Olga', 'Kuznetsova', '2004-11-02', 3),
+(6, 'Nikita', 'Sokolov', '2005-05-09', 4),
+(7, 'Maria', 'Popova', '2004-08-14', 5),
+(8, 'Alexey', 'Lebedev', '2005-02-27', 6),
+(9, 'Elena', 'Morozova', '2004-06-19', 7),
+(10, 'Sergey', 'Volkov', '2005-09-03', 8),
+(1, 'Roman', 'Fedorov', '2004-12-30', 9);
+
+INSERT INTO Teachers (UserId, FirstName, LastName, DepartmentId) VALUES
+(6, 'Andrey', 'Orlov', 1),
+(7, 'Irina', 'Belova', 2),
+(8, 'Oleg', 'Nikolaev', 3),
+(9, 'Svetlana', 'Markova', 4),
+(10, 'Victor', 'Stepanov', 5),
+(1, 'Natalia', 'Karpova', 6),
+(2, 'Denis', 'Soloviev', 7),
+(3, 'Yulia', 'Alexeeva', 8),
+(4, 'Pavel', 'Zaitsev', 9),
+(5, 'Tatiana', 'Egorova', 10);
+
+INSERT INTO Subjects (SubjectName) VALUES
+('Databases'),
+('Programming'),
+('Mathematics'),
+('Economics'),
+('Law Basics'),
+('Design Theory'),
+('Physics'),
+('Pedagogy'),
+('Management'),
+('Statistics');
+
+INSERT INTO Courses (SubjectId, TeacherId, GroupId, Semester) VALUES
+(1, 1, 1, 3),
+(2, 1, 2, 2),
+(3, 2, 3, 1),
+(4, 2, 4, 2),
+(5, 3, 5, 1),
+(6, 4, 6, 2),
+(7, 5, 7, 3),
+(8, 6, 8, 1),
+(9, 7, 9, 2),
+(10, 8, 10, 3);
+
+INSERT INTO Enrollments (StudentId, CourseId) VALUES
+(1, 1),
+(2, 1),
+(3, 2),
+(4, 3),
+(5, 4),
+(6, 5),
+(7, 6),
+(8, 7),
+(9, 8),
+(10, 9);
+
+INSERT INTO Grades (EnrollmentId, GradeValue) VALUES
+(1, 5),
+(2, 4),
+(3, 5),
+(4, 3),
+(5, 4),
+(6, 5),
+(7, 4),
+(8, 5),
+(9, 3),
+(10, 4);
