@@ -26,11 +26,16 @@ jobs:
     - name: Clear NuGet cache
       run: dotnet nuget locals all --clear
 
-    - name: Restore NuGet packages
-      run: dotnet restore BackApi.sln --force --no-cache
+    - name: Remove bin/obj manually
+      run: |
+        rm -rf **/bin
+        rm -rf **/obj
 
     - name: Clean solution
       run: dotnet clean BackApi.sln
+
+    - name: Restore NuGet packages
+      run: dotnet restore BackApi.sln --force --no-cache
 
     - name: Build project
       run: dotnet build BackApi.sln --configuration Release
