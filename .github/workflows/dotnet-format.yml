@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
@@ -22,28 +22,20 @@ jobs:
       with:
         dotnet-version: '8.0.x'
 
-    - name: Install dotnet-format tool
+    - name: Install dotnet-format
       run: dotnet tool install -g dotnet-format
-
-    - name: Enable long paths
-      run: New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" -Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
-      shell: powershell
-
-    - name: Clean old build artifacts
-      run: |
-        dotnet clean s\BackApi.sln
-        Remove-Item -Recurse -Force .\**\bin
-        Remove-Item -Recurse -Force .\**\obj
-      shell: powershell
 
     - name: Clear NuGet cache
       run: dotnet nuget locals all --clear
 
     - name: Restore NuGet packages
-      run: dotnet restore s\BackApi.sln --force --no-cache
+      run: dotnet restore BackApi.sln --force --no-cache
+
+    - name: Clean solution
+      run: dotnet clean BackApi.sln
 
     - name: Build project
-      run: dotnet build s\BackApi.sln --configuration Release
+      run: dotnet build BackApi.sln --configuration Release
 
     - name: Verify code formatting
       run: dotnet format --verify-no-changes --no-restore
