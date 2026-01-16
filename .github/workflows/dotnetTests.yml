@@ -30,7 +30,7 @@ jobs:
       run: dotnet nuget locals all --clear
 
     - name: Restore NuGet packages
-      run: dotnet restore BackApi.sln --force --no-cache
+      run: dotnet restore BusinessLogic.Tests/BusinessLogic.Tests.csproj --force --no-cache
 
     - name: Build tests
       run: dotnet build BusinessLogic.Tests/BusinessLogic.Tests.csproj --configuration Debug
