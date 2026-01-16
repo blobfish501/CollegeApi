@@ -14,6 +14,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with:
+        path: CollegeApi
 
     - name: Setup .NET 8
       uses: actions/setup-dotnet@v3
@@ -30,8 +32,11 @@ jobs:
         Remove-Item -Recurse -Force .\**\obj
       shell: powershell
 
+    - name: Clear NuGet cache
+      run: dotnet nuget locals all --clear
+
     - name: Restore NuGet packages
-      run: dotnet restore BackApi.sln
+      run: dotnet restore BackApi.sln --force --no-cache
 
     - name: Build project
       run: dotnet build BackApi.sln --configuration Release
