@@ -38,7 +38,7 @@ jobs:
     #   run: dotnet clean BackApi.sln
 
     - name: Build project
-      run: dotnet build BackApi.sln --configuration Release
+      run: dotnet build BackApi.sln --configuration Release --no-restore
 
     - name: Verify code formatting
       run: dotnet format BackApi.sln --verify-no-changes --no-restore || true
