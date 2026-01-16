@@ -40,7 +40,7 @@ namespace BackApi
                 {
                     Version = "v1",
                     Title = "База данных колледжа",
-                    Description = "Краткое описание вашего API",
+                    Description = "...",
                     Contact = new OpenApiContact
                     {
                         Name = "Пример контакта",
