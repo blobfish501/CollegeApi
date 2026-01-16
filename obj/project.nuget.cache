@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MR6VRtUVaNI=",
+  "dgSpecHash": "07OzXV+1fdI=",
   "success": true,
   "projectFilePath": "D:\\мои файлы\\Колледж\\Курсовая\\CollegeApi\\BackApi.csproj",
   "expectedPackageFiles": [
@@ -163,7 +163,8 @@
     "C:\\Users\\kimpa\\.nuget\\packages\\xunit.assert\\2.5.3\\xunit.assert.2.5.3.nupkg.sha512",
     "C:\\Users\\kimpa\\.nuget\\packages\\xunit.core\\2.5.3\\xunit.core.2.5.3.nupkg.sha512",
     "C:\\Users\\kimpa\\.nuget\\packages\\xunit.extensibility.core\\2.5.3\\xunit.extensibility.core.2.5.3.nupkg.sha512",
-    "C:\\Users\\kimpa\\.nuget\\packages\\xunit.extensibility.execution\\2.5.3\\xunit.extensibility.execution.2.5.3.nupkg.sha512"
+    "C:\\Users\\kimpa\\.nuget\\packages\\xunit.extensibility.execution\\2.5.3\\xunit.extensibility.execution.2.5.3.nupkg.sha512",
+    "C:\\Users\\kimpa\\.nuget\\packages\\xunit.runner.visualstudio\\2.5.3\\xunit.runner.visualstudio.2.5.3.nupkg.sha512"
   ],
   "logs": []
 }
