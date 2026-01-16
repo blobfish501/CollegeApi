@@ -15,15 +15,15 @@ namespace BackApi
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.Services.AddDbContext<CollegeApiContext>(
-                options => options.UseSqlServer(
-                    "Server=DESKTOP-HHE4E6Q\\SQLEXPRESS;Database=CollegeApi;Trusted_Connection=True;TrustServerCertificate=True;"));
+            //builder.Services.AddDbContext<CollegeApiContext>(
+            //    options => options.UseSqlServer(
+            //        "Server=DESKTOP-HHE4E6Q\\SQLEXPRESS;Database=CollegeApi;Trusted_Connection=True;TrustServerCertificate=True;"));
 
-            //builder.Services.AddDbContext<CollegeApiContext>(options =>
-            //    options.UseSqlServer(
-            //        builder.Configuration.GetConnectionString("DefaultConnection"),
-            //        b => b.MigrationsAssembly("DataAccess")
-            //    ));
+            builder.Services.AddDbContext<CollegeApiContext>(options =>
+                options.UseSqlServer(
+                    builder.Configuration.GetConnectionString("DefaultConnection"),
+                    b => b.MigrationsAssembly("DataAccess")
+                ));
 
 
             builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();

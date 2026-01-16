@@ -43,3 +43,19 @@ D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\Bu
 D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\BusinessLogic\obj\Debug\net8.0\refint\BusinessLogic.dll
 D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\BusinessLogic\obj\Debug\net8.0\BusinessLogic.pdb
 D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\BusinessLogic\obj\Debug\net8.0\ref\BusinessLogic.dll
+D:\мои файлы\Колледж\Курсовая\CollegeApi\BusinessLogic\bin\Debug\net8.0\BusinessLogic.deps.json
+D:\мои файлы\Колледж\Курсовая\CollegeApi\BusinessLogic\bin\Debug\net8.0\BusinessLogic.dll
+D:\мои файлы\Колледж\Курсовая\CollegeApi\BusinessLogic\bin\Debug\net8.0\BusinessLogic.pdb
+D:\мои файлы\Колледж\Курсовая\CollegeApi\BusinessLogic\bin\Debug\net8.0\Domain.dll
+D:\мои файлы\Колледж\Курсовая\CollegeApi\BusinessLogic\bin\Debug\net8.0\Domain.pdb
+D:\мои файлы\Колледж\Курсовая\CollegeApi\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.AssemblyReference.cache
+D:\мои файлы\Колледж\Курсовая\CollegeApi\BusinessLogic\obj\Debug\net8.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\мои файлы\Колледж\Курсовая\CollegeApi\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfoInputs.cache
+D:\мои файлы\Колледж\Курсовая\CollegeApi\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfo.cs
+D:\мои файлы\Колледж\Курсовая\CollegeApi\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\мои файлы\Колледж\Курсовая\CollegeApi\BusinessLogic\obj\Debug\net8.0\BusinessLogic.sourcelink.json
+D:\мои файлы\Колледж\Курсовая\CollegeApi\BusinessLogic\obj\Debug\net8.0\Business.CF5D6E35.Up2Date
+D:\мои файлы\Колледж\Курсовая\CollegeApi\BusinessLogic\obj\Debug\net8.0\BusinessLogic.dll
+D:\мои файлы\Колледж\Курсовая\CollegeApi\BusinessLogic\obj\Debug\net8.0\refint\BusinessLogic.dll
+D:\мои файлы\Колледж\Курсовая\CollegeApi\BusinessLogic\obj\Debug\net8.0\BusinessLogic.pdb
+D:\мои файлы\Колледж\Курсовая\CollegeApi\BusinessLogic\obj\Debug\net8.0\ref\BusinessLogic.dll
