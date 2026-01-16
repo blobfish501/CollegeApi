@@ -1,0 +1,24 @@
+name: .NET 8 CI
+
+on:
+  push:
+    branches:
+      - '**' 
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '8.0.x'
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
+    - name: FormatCode
+      run: dotnet format --verify-no-changes --no-restore

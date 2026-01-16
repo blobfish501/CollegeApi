@@ -1,5 +1,5 @@
-﻿using DataAccess.Models;
-using DataAccess.Interfaces;
+﻿using Domain.Models;
+using Domain.Interfaces;
 using DataAccess.Repositories;
 
 namespace DataAccess.Wrapper
@@ -23,9 +23,9 @@ namespace DataAccess.Wrapper
         {
             _repoContext = repositoryContext;
         }
-        public void Save()
+        public async Task Save()
         {
-            _repoContext.SaveChanges();
+            await _repoContext.SaveChangesAsync();
         }
     }
 }

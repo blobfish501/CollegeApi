@@ -12,3 +12,37 @@ D:\Downloads\BackApi\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
 D:\Downloads\BackApi\DataAccess\obj\Debug\net8.0\DataAccess.pdb
 D:\Downloads\BackApi\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
 D:\Downloads\BackApi\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\мои файлы\Колледж\BackApi - задание 4\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\мои файлы\Колледж\BackApi - задание 4\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\мои файлы\Колледж\BackApi - задание 4\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\мои файлы\Колледж\BackApi - задание 4\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\мои файлы\Колледж\BackApi - задание 4\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\мои файлы\Колледж\BackApi - задание 4\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\мои файлы\Колледж\BackApi - задание 4\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\мои файлы\Колледж\BackApi - задание 4\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\мои файлы\Колледж\BackApi - задание 4\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\мои файлы\Колледж\BackApi - задание 4\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\мои файлы\Колледж\BackApi - задание 4\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\мои файлы\Колледж\BackApi - задание 4\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\мои файлы\Колледж\BackApi - задание 4\DataAccess\bin\Debug\net8.0\Domain.dll
+D:\мои файлы\Колледж\BackApi - задание 4\DataAccess\bin\Debug\net8.0\Domain.pdb
+D:\мои файлы\Колледж\BackApi - задание 4\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\мои файлы\Колледж\BackApi - задание 4\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\мои файлы\Колледж\BackApi - задание 4\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\DataAccess\bin\Debug\net8.0\Domain.dll
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\DataAccess\bin\Debug\net8.0\Domain.pdb
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll

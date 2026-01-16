@@ -1,8 +1,17 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "BackApi",
-    "version": "1.0"
+    "title": "Интернет-магазин API",
+    "description": "Краткое описание вашего API",
+    "contact": {
+      "name": "Пример контакта",
+      "url": "https://example.com/contact"
+    },
+    "license": {
+      "name": "Пример лицензии",
+      "url": "https://example.com/license"
+    },
+    "version": "v1"
   },
   "paths": {
     "/api/User": {
@@ -10,6 +19,8 @@
         "tags": [
           "User"
         ],
+        "summary": "Получение информации обо всех пользователях",
+        "description": "",
         "responses": {
           "200": {
             "description": "OK"
@@ -20,21 +31,23 @@
         "tags": [
           "User"
         ],
+        "summary": "Создание нового пользователя",
+        "description": "Пример запроса:\r\n            \r\n    POST /Todo\r\n    {\r\n       \"Login\" : \"stud123\",\r\n       \"PasswordHash\" : \"hash11\",\r\n       \"RoleId\" : \"1\"\r\n    }",
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/CreateUserRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/CreateUserRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/CreateUserRequest"
               }
             }
           }
@@ -49,21 +62,23 @@
         "tags": [
           "User"
         ],
+        "summary": "Изменение информации о пользователе",
+        "description": "Пример:\r\n    PUT\r\n    {\r\n       \"Login\" : \"stud123\",\r\n       \"PasswordHash\" : \"hash11\",\r\n       \"RoleId\" : \"1\"\r\n    }",
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/PutUserResponse"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/PutUserResponse"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/User"
+                "$ref": "#/components/schemas/PutUserResponse"
               }
             }
           }
@@ -78,6 +93,8 @@
         "tags": [
           "User"
         ],
+        "summary": "Удаление пользователя",
+        "description": "",
         "parameters": [
           {
             "name": "id",
@@ -100,6 +117,8 @@
         "tags": [
           "User"
         ],
+        "summary": "Получение информации о пользователе",
+        "description": "",
         "parameters": [
           {
             "name": "id",
@@ -328,298 +347,9 @@
   },
   "components": {
     "schemas": {
-      "Course": {
+      "CreateUserRequest": {
         "type": "object",
         "properties": {
-          "courseId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "subjectId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "teacherId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "groupId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "semester": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "enrollments": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Enrollment"
-            },
-            "nullable": true
-          },
-          "group": {
-            "$ref": "#/components/schemas/Group"
-          },
-          "subject": {
-            "$ref": "#/components/schemas/Subject"
-          },
-          "teacher": {
-            "$ref": "#/components/schemas/Teacher"
-          }
-        },
-        "additionalProperties": false
-      },
-      "Department": {
-        "type": "object",
-        "properties": {
-          "departmentId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "departmentName": {
-            "type": "string",
-            "nullable": true
-          },
-          "groups": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Group"
-            },
-            "nullable": true
-          },
-          "teachers": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Teacher"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "Enrollment": {
-        "type": "object",
-        "properties": {
-          "enrollmentId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "studentId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "courseId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "course": {
-            "$ref": "#/components/schemas/Course"
-          },
-          "grades": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Grade"
-            },
-            "nullable": true
-          },
-          "student": {
-            "$ref": "#/components/schemas/Student"
-          }
-        },
-        "additionalProperties": false
-      },
-      "Grade": {
-        "type": "object",
-        "properties": {
-          "gradeId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "enrollmentId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "gradeValue": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "gradeDate": {
-            "type": "string",
-            "format": "date"
-          },
-          "enrollment": {
-            "$ref": "#/components/schemas/Enrollment"
-          }
-        },
-        "additionalProperties": false
-      },
-      "Group": {
-        "type": "object",
-        "properties": {
-          "groupId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "groupName": {
-            "type": "string",
-            "nullable": true
-          },
-          "departmentId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "courses": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Course"
-            },
-            "nullable": true
-          },
-          "department": {
-            "$ref": "#/components/schemas/Department"
-          },
-          "students": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Student"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "Role": {
-        "type": "object",
-        "properties": {
-          "roleId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "roleName": {
-            "type": "string",
-            "nullable": true
-          },
-          "users": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/User"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "Student": {
-        "type": "object",
-        "properties": {
-          "studentId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "userId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "firstName": {
-            "type": "string",
-            "nullable": true
-          },
-          "lastName": {
-            "type": "string",
-            "nullable": true
-          },
-          "birthDate": {
-            "type": "string",
-            "format": "date"
-          },
-          "groupId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "enrollments": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Enrollment"
-            },
-            "nullable": true
-          },
-          "group": {
-            "$ref": "#/components/schemas/Group"
-          },
-          "user": {
-            "$ref": "#/components/schemas/User"
-          }
-        },
-        "additionalProperties": false
-      },
-      "Subject": {
-        "type": "object",
-        "properties": {
-          "subjectId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "subjectName": {
-            "type": "string",
-            "nullable": true
-          },
-          "courses": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Course"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "Teacher": {
-        "type": "object",
-        "properties": {
-          "teacherId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "userId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "firstName": {
-            "type": "string",
-            "nullable": true
-          },
-          "lastName": {
-            "type": "string",
-            "nullable": true
-          },
-          "departmentId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "courses": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Course"
-            },
-            "nullable": true
-          },
-          "department": {
-            "$ref": "#/components/schemas/Department"
-          },
-          "user": {
-            "$ref": "#/components/schemas/User"
-          }
-        },
-        "additionalProperties": false
-      },
-      "User": {
-        "type": "object",
-        "properties": {
-          "userId": {
-            "type": "integer",
-            "format": "int32"
-          },
           "login": {
             "type": "string",
             "nullable": true
@@ -631,15 +361,24 @@
           "roleId": {
             "type": "integer",
             "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PutUserResponse": {
+        "type": "object",
+        "properties": {
+          "login": {
+            "type": "string",
+            "nullable": true
           },
-          "role": {
-            "$ref": "#/components/schemas/Role"
+          "passwordHash": {
+            "type": "string",
+            "nullable": true
           },
-          "student": {
-            "$ref": "#/components/schemas/Student"
-          },
-          "teacher": {
-            "$ref": "#/components/schemas/Teacher"
+          "roleId": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

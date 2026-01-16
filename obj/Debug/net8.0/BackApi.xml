@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BackApi</name>
+    </assembly>
+    <members>
+        <member name="M:BackendApi.Controllers.UserController.GetAll">
+            <summary>
+            Получение информации обо всех пользователях
+            </summary>
+            <remarks></remarks>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.GetById(System.Int32)">
+            <summary>
+            Получение информации о пользователе
+            </summary>
+            <remarks></remarks>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.Add(BackApi.Contracts.User.CreateUserRequest)">
+             <summary>
+             Создание нового пользователя
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /Todo
+                 {
+                    "Login" : "stud123",
+                    "PasswordHash" : "hash11",
+                    "RoleId" : "1"
+                 }
+            
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.Update(BackApi.Contracts.User.PutUserResponse)">
+            <summary>
+            Изменение информации о пользователе
+            </summary>
+            <remarks>
+            Пример:
+                PUT
+                {
+                   "Login" : "stud123",
+                   "PasswordHash" : "hash11",
+                   "RoleId" : "1"
+                }
+            </remarks>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.Delete(System.Int32)">
+            <summary>
+            Удаление пользователя
+            </summary>
+            <remarks></remarks>
+            <param name="model">Пользователь</param>
+            <returns></returns>
+        </member>
+        <member name="T:DataAccess.Migrations.Migrations">
+            <inheritdoc />
+        </member>
+        <member name="M:DataAccess.Migrations.Migrations.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:DataAccess.Migrations.Migrations.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:DataAccess.Migrations.Migrations.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

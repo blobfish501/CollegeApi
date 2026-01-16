@@ -9,3 +9,27 @@ D:\Downloads\BackApi\Domain\obj\Debug\net8.0\Domain.dll
 D:\Downloads\BackApi\Domain\obj\Debug\net8.0\refint\Domain.dll
 D:\Downloads\BackApi\Domain\obj\Debug\net8.0\Domain.pdb
 D:\Downloads\BackApi\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\мои файлы\Колледж\BackApi - задание 4\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\мои файлы\Колледж\BackApi - задание 4\Domain\bin\Debug\net8.0\Domain.dll
+D:\мои файлы\Колледж\BackApi - задание 4\Domain\bin\Debug\net8.0\Domain.pdb
+D:\мои файлы\Колледж\BackApi - задание 4\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+D:\мои файлы\Колледж\BackApi - задание 4\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\мои файлы\Колледж\BackApi - задание 4\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\мои файлы\Колледж\BackApi - задание 4\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\мои файлы\Колледж\BackApi - задание 4\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\мои файлы\Колледж\BackApi - задание 4\Domain\obj\Debug\net8.0\Domain.dll
+D:\мои файлы\Колледж\BackApi - задание 4\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\мои файлы\Колледж\BackApi - задание 4\Domain\obj\Debug\net8.0\Domain.pdb
+D:\мои файлы\Колледж\BackApi - задание 4\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\Domain\bin\Debug\net8.0\Domain.dll
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\Domain\bin\Debug\net8.0\Domain.pdb
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\Domain\obj\Debug\net8.0\Domain.dll
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\Domain\obj\Debug\net8.0\Domain.pdb
+D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\Domain\obj\Debug\net8.0\ref\Domain.dll
