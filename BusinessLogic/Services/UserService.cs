@@ -29,7 +29,7 @@ namespace BusinessLogic.Services
             if (model == null)
             {
                 throw new ArgumentNullException(nameof(model));
-            }    
+            }
 
             if (string.IsNullOrEmpty(model.Login))
             {

@@ -1,14 +1,14 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "База данных колледжа",
+    "title": "College Database",
     "description": "...",
     "contact": {
-      "name": "Пример контакта",
+      "name": "Contacts",
       "url": "https://example.com/contact"
     },
     "license": {
-      "name": "Пример лицензии",
+      "name": "License",
       "url": "https://example.com/license"
     },
     "version": "v1"

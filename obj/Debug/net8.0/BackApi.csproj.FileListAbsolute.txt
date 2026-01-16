@@ -630,12 +630,3 @@ D:\мои файлы\Колледж\Курсовая\CollegeApi\bin\Debug\net8.0
 D:\мои файлы\Колледж\Курсовая\CollegeApi\bin\Debug\net8.0\BusinessLogic.Tests\obj\BusinessLogic.Tests.csproj.nuget.dgspec.json
 D:\мои файлы\Колледж\Курсовая\CollegeApi\bin\Debug\net8.0\BusinessLogic.Tests\obj\Debug\net8.0\BusinessLogic.Tests.sourcelink.json
 D:\мои файлы\Колледж\Курсовая\CollegeApi\bin\Debug\net8.0\BusinessLogic.Tests\obj\project.assets.json
-D:\мои файлы\Колледж\Курсовая\CollegeApi\bin\Debug\net8.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
-D:\мои файлы\Колледж\Курсовая\CollegeApi\bin\Debug\net8.0\xunit.runner.reporters.netcoreapp10.dll
-D:\мои файлы\Колледж\Курсовая\CollegeApi\bin\Debug\net8.0\xunit.runner.utility.netcoreapp10.dll
-D:\мои файлы\Колледж\Курсовая\CollegeApi\bin\Debug\net8.0\Castle.Core.dll
-D:\мои файлы\Колледж\Курсовая\CollegeApi\bin\Debug\net8.0\Moq.dll
-D:\мои файлы\Колледж\Курсовая\CollegeApi\bin\Debug\net8.0\xunit.abstractions.dll
-D:\мои файлы\Колледж\Курсовая\CollegeApi\bin\Debug\net8.0\xunit.assert.dll
-D:\мои файлы\Колледж\Курсовая\CollegeApi\bin\Debug\net8.0\xunit.core.dll
-D:\мои файлы\Колледж\Курсовая\CollegeApi\bin\Debug\net8.0\xunit.execution.dotnet.dll

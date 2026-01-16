@@ -1,6 +1,6 @@
-﻿using Domain.Models;
+﻿using DataAccess.Repositories;
 using Domain.Interfaces;
-using DataAccess.Repositories;
+using Domain.Models;
 
 namespace DataAccess.Wrapper
 {

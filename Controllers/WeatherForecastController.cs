@@ -36,7 +36,7 @@
 //        {
 //            if (index < 0 || index >= Summaries.Count)
 //            {
-//                return BadRequest("Неверный индекс!");
+//                return BadRequest("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ!");
 //            }
 
 //            Summaries[index] = name;
@@ -48,21 +48,21 @@
 //        {
 //            if (index < 0 || index >= Summaries.Count)
 //            {
-//                return BadRequest("Неверный индекс!");
+//                return BadRequest("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ!");
 //            }
 
 //            Summaries.RemoveAt(index);
 //            return Ok();
 //        }
 
-//        // Задание 2
+//        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 2
 //        [HttpGet("{index}")]
 //        public string Get(int index)
 //        {
 //            return Summaries[index];
 //        }
 
-//        // Задание 3
+//        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 3
 //        [HttpGet("find-by-name")]
 //        public int Get(string name)
 //        {
@@ -79,19 +79,19 @@
 //            return count;
 //        }
 
-//        // Задание 4
+//        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 4
 //        [HttpGet("get_all")]
 //        public IActionResult GetAll(int? sortStrategy)
 //        {
 //            List<string> s1 = new List<string>(Summaries);
 
-//            // дефолт
+//            // пїЅпїЅпїЅпїЅпїЅпїЅ
 //            if (sortStrategy == null)
 //            {
 //                return Summaries == null ? NotFound() : Ok(Summaries);
 //            }
 
-//            // возрастание
+//            // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 //            else if (sortStrategy == 1)
 //            {
 //                s1.Sort();
@@ -99,7 +99,7 @@
 //                return s1 == null ? NotFound() : Ok(s1);
 //            }
 
-//            // убывание
+//            // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 //            else if (sortStrategy == -1)
 //            {
 //                s1.Sort();
@@ -110,7 +110,7 @@
 
 //            else
 //            {
-//                return BadRequest("Некорректное значение параметра sortStrategy");
+//                return BadRequest("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ sortStrategy");
 //            }
 //        }
 //    }

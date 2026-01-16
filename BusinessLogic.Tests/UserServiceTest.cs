@@ -1,7 +1,7 @@
 ﻿using BusinessLogic.Services;
 using Domain.Interfaces;
-using Moq;
 using Domain.Models;
+using Moq;
 
 namespace BusinessLogic.Tests
 {

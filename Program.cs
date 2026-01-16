@@ -39,16 +39,16 @@ namespace BackApi
                 options.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "База данных колледжа",
-                    Description = "...",
+                    Title = "Р‘Р°Р·Р° РґР°РЅРЅС‹С… РєРѕР»Р»РµРґР¶Р°",
+                    Description = "РћРїРёСЃР°РЅРёРµ",
                     Contact = new OpenApiContact
                     {
-                        Name = "Пример контакта",
+                        Name = "РљРѕРЅС‚Р°РєС‚С‹",
                         Url = new Uri("https://example.com/contact")
                     },
                     License = new OpenApiLicense
                     {
-                        Name = "Пример лицензии",
+                        Name = "Р›РёС†РµРЅР·РёСЏ",
                         Url = new Uri("https://example.com/license")
                     }
                 });
