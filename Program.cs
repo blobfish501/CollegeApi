@@ -39,7 +39,7 @@ namespace BackApi
                 options.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "Интернет-магазин API",
+                    Title = "База данных колледжа",
                     Description = "Краткое описание вашего API",
                     Contact = new OpenApiContact
                     {
