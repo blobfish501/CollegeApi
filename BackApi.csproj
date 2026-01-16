@@ -28,4 +28,9 @@
     <EditorConfigFiles Remove="D:\мои файлы\Колледж\Курсовая\Задание 4\BackApi\.editorconfig" />
   </ItemGroup>
 
+  <ItemGroup>
+	<Compile Remove="BusinessLogic.Tests/**/*.cs" />
+  </ItemGroup>
+
+
 </Project>
