@@ -29,13 +29,13 @@ jobs:
       run: dotnet nuget locals all --clear
 
     - name: Restore NuGet packages
-      run: dotnet restore BackApi.sln --force --no-cache
+      run: dotnet restore --force --no-cache
 
     - name: Clean solution
-      run: dotnet clean BackApi.sln
+      run: dotnet clean
 
     - name: Build project
-      run: dotnet build BackApi.sln --configuration Release
+      run: dotnet build --configuration Release
 
     - name: Verify code formatting
       run: dotnet format --verify-no-changes --no-restore
