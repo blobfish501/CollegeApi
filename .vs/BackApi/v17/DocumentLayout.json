@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\\u043C\u043E\u0438 \u0444\u0430\u0439\u043B\u044B\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\CollegeApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80C94800-508C-4B8C-8D0C-17747428FE93}|BackApi.csproj|d:\\\u043C\u043E\u0438 \u0444\u0430\u0439\u043B\u044B\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\collegeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80C94800-508C-4B8C-8D0C-17747428FE93}|BackApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02314027-E7F3-4EF3-95C0-7E521D68265A}|BusinessLogic.Tests\\BusinessLogic.Tests.csproj|d:\\\u043C\u043E\u0438 \u0444\u0430\u0439\u043B\u044B\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\collegeapi\\businesslogic.tests\\userservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02314027-E7F3-4EF3-95C0-7E521D68265A}|BusinessLogic.Tests\\BusinessLogic.Tests.csproj|solutionrelative:businesslogic.tests\\userservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99884653-AF4D-41B4-80E0-C63A19D15561}|Domain\\Domain.csproj|d:\\\u043C\u043E\u0438 \u0444\u0430\u0439\u043B\u044B\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\collegeapi\\domain\\interfaces\\irepositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99884653-AF4D-41B4-80E0-C63A19D15561}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\irepositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F70E8F4-AEF8-4C40-9F06-320B385F06EF}|BusinessLogic\\BusinessLogic.csproj|d:\\\u043C\u043E\u0438 \u0444\u0430\u0439\u043B\u044B\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\collegeapi\\businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F70E8F4-AEF8-4C40-9F06-320B385F06EF}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80C94800-508C-4B8C-8D0C-17747428FE93}|BackApi.csproj|d:\\\u043C\u043E\u0438 \u0444\u0430\u0439\u043B\u044B\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\collegeapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80C94800-508C-4B8C-8D0C-17747428FE93}|BackApi.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C94800-508C-4B8C-8D0C-17747428FE93}|BackApi.csproj|d:\\\u043C\u043E\u0438 \u0444\u0430\u0439\u043B\u044B\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\collegeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C94800-508C-4B8C-8D0C-17747428FE93}|BackApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80C94800-508C-4B8C-8D0C-17747428FE93}|BackApi.csproj|d:\\\u043C\u043E\u0438 \u0444\u0430\u0439\u043B\u044B\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\collegeapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,43 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IRepositoryWrapper.cs",
+              "DocumentMoniker": "D:\\\u043C\u043E\u0438 \u0444\u0430\u0439\u043B\u044B\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\CollegeApi\\Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "ToolTip": "D:\\\u043C\u043E\u0438 \u0444\u0430\u0439\u043B\u044B\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\CollegeApi\\Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T12:36:28.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserServiceTest.cs",
+              "DocumentMoniker": "D:\\\u043C\u043E\u0438 \u0444\u0430\u0439\u043B\u044B\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\CollegeApi\\BusinessLogic.Tests\\UserServiceTest.cs",
+              "RelativeDocumentMoniker": "BusinessLogic.Tests\\UserServiceTest.cs",
+              "ToolTip": "D:\\\u043C\u043E\u0438 \u0444\u0430\u0439\u043B\u044B\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\CollegeApi\\BusinessLogic.Tests\\UserServiceTest.cs",
+              "RelativeToolTip": "BusinessLogic.Tests\\UserServiceTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T11:20:59.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\\u043C\u043E\u0438 \u0444\u0430\u0439\u043B\u044B\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\CollegeApi\\BusinessLogic\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Services\\UserService.cs",
+              "ToolTip": "D:\\\u043C\u043E\u0438 \u0444\u0430\u0439\u043B\u044B\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\CollegeApi\\BusinessLogic\\Services\\UserService.cs",
+              "RelativeToolTip": "BusinessLogic\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T12:15:46.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\\u043C\u043E\u0438 \u0444\u0430\u0439\u043B\u044B\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\CollegeApi\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "D:\\\u043C\u043E\u0438 \u0444\u0430\u0439\u043B\u044B\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\CollegeApi\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-16T10:34:48.388Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\\u043C\u043E\u0438 \u0444\u0430\u0439\u043B\u044B\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\CollegeApi\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
               "ToolTip": "D:\\\u043C\u043E\u0438 \u0444\u0430\u0439\u043B\u044B\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\CollegeApi\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAACBjwAsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-16T10:34:46.86Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\\u043C\u043E\u0438 \u0444\u0430\u0439\u043B\u044B\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\CollegeApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\\u043C\u043E\u0438 \u0444\u0430\u0439\u043B\u044B\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F\\CollegeApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACoAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBZwCoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-16T07:46:45.645Z",
               "EditorCaption": ""

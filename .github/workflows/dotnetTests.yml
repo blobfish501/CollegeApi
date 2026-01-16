@@ -1,0 +1,39 @@
+name: .NET 8 CI
+
+on:
+  push:
+    branches:
+      - '**' 
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Repository Checkout
+      uses: actions/checkout@v3
+
+    - name: .NET 8
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: Clean artifacts
+      run: |
+        rm -rf **/bin
+        rm -rf **/obj
+
+    - name: Clear NuGet cache
+      run: dotnet nuget locals all --clear
+
+    - name: Restore NuGet packages
+      run: dotnet restore BackApi.sln --force --no-cache
+
+    - name: Build solution
+      run: dotnet build BackApi.sln --configuration Release
+
+    - name: Run tests
+      run: dotnet test BackApi.sln --no-build --verbosity normal
