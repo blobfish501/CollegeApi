@@ -23,19 +23,19 @@ jobs:
     - name: Install dotnet-format
       run: dotnet tool install -g dotnet-format
 
-    - name: Clear NuGet cache
-      run: dotnet nuget locals all --clear
-
     - name: Remove bin/obj manually
       run: |
         rm -rf **/bin
         rm -rf **/obj
 
-    - name: Clean solution
-      run: dotnet clean BackApi.sln
+    - name: Clear NuGet cache
+      run: dotnet nuget locals all --clear
 
     - name: Restore NuGet packages
       run: dotnet restore BackApi.sln --force --no-cache
+
+    # - name: Clean solution
+    #   run: dotnet clean BackApi.sln
 
     - name: Build project
       run: dotnet build BackApi.sln --configuration Release
