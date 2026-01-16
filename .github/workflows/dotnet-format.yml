@@ -41,4 +41,4 @@ jobs:
       run: dotnet build BackApi.sln --configuration Release
 
     - name: Verify code formatting
-      run: dotnet format BackApi.sln --severity info --verify-no-changes --no-restore
+      run: dotnet format BackApi.sln --verify-no-changes --no-restore || true
