@@ -32,8 +32,8 @@ jobs:
     - name: Restore NuGet packages
       run: dotnet restore BackApi.sln --force --no-cache
 
-    - name: Build solution
-      run: dotnet build BackApi.sln --configuration Release --no-restore
+    - name: Build tests
+      run: dotnet build BusinessLogic.Tests/BusinessLogic.Tests.csproj --configuration Debug
 
     - name: Run tests
-      run: dotnet test BusinessLogic.Tests/BusinessLogic.Tests.csproj --no-build --verbosity normal
+      run: dotnet test BusinessLogic.Tests/BusinessLogic.Tests.csproj --configuration Debug --no-build --verbosity normal
